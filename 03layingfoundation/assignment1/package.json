@@ -1,0 +1,20 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "JSX allows developers to write HTML-like code in their JavaScript code. JSX is commonly used in combination with React,a popular JavaScript library for building user interfaces. With JSX, developers can write code that looks like HTML but is actually JavaScript, allowing for more efficient and readable code. When the JSX code is compiled, it is transformed into regular JavaScript code that can be executed by the browser or server.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
